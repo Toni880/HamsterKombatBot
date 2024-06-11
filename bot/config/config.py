@@ -1,8 +1,8 @@
-#from pydantic_settings import BaseSettings, SettingsConfigDict
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
-class Settings(): #(BaseSettings):
-    #model_config = SettingsConfigDict(env_file=".env", env_ignore_empty=True)
+class Settings(BaseSettings):
+    model_config = SettingsConfigDict(env_file=".env", env_ignore_empty=True)
 
     API_ID: int = 10655360
     API_HASH: str = "32aa547bd6cc2e9f61063cd31e0bc0a5"
