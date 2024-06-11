@@ -19,3 +19,6 @@ win32-setctime==1.1.0
 yarl==1.9.4
 fake-useragent==1.5.1
 better-proxy==1.1.5
+pydantic==2.6.4
+pydantic-settings==2.2.1
+pydantic_core==2.16.3
