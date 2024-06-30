@@ -7,6 +7,8 @@ class Settings(BaseSettings):
     API_ID: int = 10655360
     API_HASH: str = "32aa547bd6cc2e9f61063cd31e0bc0a5"
 
+    ACTION: int = 0 # Added this as default, to show options
+
     MIN_AVAILABLE_ENERGY: int = 100
     SLEEP_BY_MIN_ENERGY: list[int] = [1800, 2400]
 
